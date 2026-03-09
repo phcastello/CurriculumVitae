@@ -1,0 +1,132 @@
+body {
+    background-color: #f8fafc;
+    color: #1f2937;
+    font-family: 'Trebuchet MS', Verdana, sans-serif;
+    text-align: left;
+}
+
+#titulo-principal {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 42px;
+    color: #0b3a63;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: #e2ecf8;
+    font-variant: small-caps;
+}
+
+.subtitulo-curriculo {
+    text-align: center;
+    font-size: 20px;
+    color: #365a7a;
+    font-style: italic;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.titulo-secao {
+    font-size: 24px;
+    color: #0f4c81;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: #edf3fb;
+    font-family: 'Trebuchet MS', Verdana, sans-serif;
+}
+
+.dado-pessoal {
+    font-size: 17px;
+    text-align: left;
+    color: #1f2937;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+.dado-pessoal strong {
+    color: #0f4c81;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.nome {
+    font-variant: small-caps;
+    font-weight: 700;
+    color: #0b3a63;
+}
+
+.texto-principal {
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 32px;
+    color: #243447;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+.objetivo-texto {
+    font-style: italic;
+    font-weight: 700;
+}
+
+.lista-dados {
+    color: #1f2937;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+.lista-dados li {
+    font-size: 17px;
+    color: #1f2937;
+    text-align: left;
+}
+
+.item-destaque {
+    font-weight: 700;
+    color: #0f4c81;
+    text-transform: capitalize;
+}
+
+.link-paragrafo {
+    font-size: 17px;
+    text-align: center;
+    text-indent: 0;
+    color: #334155;
+    font-style: italic;
+}
+
+a {
+    text-decoration: underline;
+    color: #0f4c81;
+    font-weight: 700;
+    font-style: normal;
+}
+
+hr {
+    background-color: #d7e3f0;
+    color: #d7e3f0;
+}
+
+#dados-pessoais {
+    color: #1d4f7a;
+}
+
+#objetivo {
+    color: #1f5f8b;
+}
+
+#formacao {
+    color: #2c6797;
+}
+
+#experiencia {
+    color: #1b567f;
+}
+
+#habilidades {
+    color: #245f8d;
+}
+
+#links {
+    text-align: center;
+}
