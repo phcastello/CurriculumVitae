@@ -1,0 +1,164 @@
+html {
+    background-color: #120c21;
+    background-image: url("imagens/Fundo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: center top;
+}
+
+body {
+    width: 88%;
+    margin: 20px auto;
+    background-color: #f8fafc;
+    color: #243447;
+    font-family: Georgia, 'Times New Roman', serif;
+    text-align: left;
+}
+
+#titulo-principal {
+    margin: 18px 18px 8px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 46px;
+    color: #0b3a63;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: #e2ecf8;
+    font-variant: small-caps;
+    font-family: 'Trebuchet MS', Verdana, sans-serif;
+}
+
+.subtitulo-curriculo {
+    margin: 0 18px 28px;
+    text-align: center;
+    font-size: 18px;
+    color: #365a7a;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', Verdana, sans-serif;
+}
+
+.titulo-secao {
+    margin: 28px 18px 12px;
+    font-size: 21px;
+    color: #0f4c81;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: #edf3fb;
+    font-family: 'Trebuchet MS', Verdana, sans-serif;
+}
+
+.foto-pessoal {
+    float: right;
+    width: 30%;
+    margin: 0 18px 14px 24px;
+}
+
+.dado-pessoal {
+    margin: 0 18px 10px;
+    font-size: 18px;
+    text-align: left;
+    color: #1f2937;
+    font-family: Georgia, 'Times New Roman', serif;
+    line-height: 1.5;
+}
+
+.dado-pessoal strong {
+    color: #0f4c81;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.nome {
+    font-size: 28px;
+    font-variant: small-caps;
+    font-weight: 700;
+    color: #0b3a63;
+}
+
+.texto-principal {
+    margin: 0 18px 14px;
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 0;
+    color: #243447;
+    font-family: Georgia, 'Times New Roman', serif;
+    line-height: 1.6;
+}
+
+.objetivo-texto {
+    font-style: italic;
+    font-weight: 700;
+}
+
+.lista-dados {
+    margin: 0 18px 14px 38px;
+    color: #1f2937;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', serif;
+    line-height: 1.6;
+}
+
+.lista-dados li {
+    margin: 0 0 6px;
+    font-size: 17px;
+    color: #1f2937;
+    text-align: left;
+}
+
+.item-destaque {
+    font-weight: 700;
+    color: #0f4c81;
+    text-transform: capitalize;
+}
+
+.link-paragrafo {
+    margin: 0 18px 28px;
+    font-size: 18px;
+    text-align: center;
+    text-indent: 0;
+    color: #334155;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    color: #0f4c81;
+    font-weight: 700;
+    font-style: normal;
+}
+
+hr {
+    margin: 24px 18px;
+    background-color: #d7e3f0;
+    color: #d7e3f0;
+}
+
+#dados-pessoais {
+    color: #1d4f7a;
+}
+
+#objetivo {
+    color: #1f5f8b;
+}
+
+#formacao {
+    color: #2c6797;
+}
+
+#experiencia {
+    color: #1b567f;
+}
+
+#habilidades {
+    color: #245f8d;
+}
+
+#links {
+    text-align: center;
+}
