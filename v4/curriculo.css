@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d9e0e8;
+    color: #243447;
+}
+
+.cabecalho {
+    background-image: url("imagens/Fundo.jpg");
+    background-size: cover;
+    background-position: center top;
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+
+.menu-principal ul {
+    margin: 20px 40px 0 0;
+    padding-left: 0;
+    text-align: right;
+}
+
+.menu-principal li {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 10px;
+    border: 1px solid #ffffff;
+}
+
+.menu-principal a {
+    display: block;
+    padding: 12px 14px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+.apresentacao {
+    width: 80%;
+    margin: 90px auto 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+.apresentacao h1 {
+    margin-bottom: 10px;
+    font-size: 42px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.apresentacao p {
+    display: inline-block;
+    margin: 0;
+    padding: 12px 18px;
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+.conteudo-principal {
+    width: 80%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+.bloco {
+    margin-bottom: 24px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.bloco h2 {
+    margin-top: 0;
+    padding: 10px;
+    background-color: #edf3fb;
+    border-bottom: 2px solid #ccd8e4;
+    color: #123f67;
+    text-transform: uppercase;
+}
+
+.perfil {
+    font-size: 0;
+}
+
+.perfil-texto,
+.perfil-imagem {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+}
+
+.perfil-texto {
+    width: 68%;
+}
+
+.perfil-imagem {
+    width: 32%;
+    text-align: right;
+}
+
+.foto-pessoal {
+    width: 90%;
+    max-width: 220px;
+}
+
+.nome {
+    margin-top: 0;
+    font-size: 26px;
+    font-weight: 700;
+    color: #0b3a63;
+}
+
+.caixa p,
+.perfil-texto p,
+.caixa li {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.caixa ul {
+    margin: 0;
+    padding-left: 22px;
+}
+
+strong {
+    color: #0f4c81;
+}
+
+.links {
+    text-align: center;
+}
+
+.links a {
+    color: #0f4c81;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.rodape {
+    padding: 20px;
+    text-align: center;
+    background-color: #55687d;
+    color: #ffffff;
+}
+
+.rodape-conteudo p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .menu-principal ul {
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .apresentacao h1 {
+        font-size: 30px;
+    }
+
+    .conteudo-principal {
+        width: 90%;
+    }
+
+    .perfil-texto,
+    .perfil-imagem {
+        display: block;
+        width: 100%;
+    }
+
+    .perfil-imagem {
+        margin-top: 16px;
+        text-align: center;
+    }
+}
